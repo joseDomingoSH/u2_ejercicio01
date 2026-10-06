@@ -1,0 +1,194 @@
+:root{
+    --amarillo: #f5c518;
+    --rojo: #e50914;
+    --azul: #0c84da;
+    --verde: #00a859;
+    --naranja: #ff6f00;
+    --morado: #8c1aff;
+    --cafe: #6f4e37;
+    --rosa: #ff69b4;
+    --txt-color: #10dd3d;
+    --bg-color: #e35b7b;
+}
+body.cambiar_color{    
+    --amarillo: #f5c5182c;
+    --rojo: #e509142c;
+    --azul: #0c84da2c;
+    --verde: #00a8592c;
+    --naranja: #ff6f002c;
+    --morado: #8c1aff2c;
+    --cafe: #6f4e372c;
+    --rosa: #ff69b42c;    
+    --txt-color: #10dd3d2c;    
+    --bg-color: #4f212c;
+}
+body{
+    background-color: var(--bg-color);
+}
+.JDSH_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.JDSH_div1{
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--txt-color);
+}
+.JDSH_div1:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.JDSH_div2{
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--txt-color);
+}
+.JDSH_div2:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.JDSH_div3{
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--txt-color);
+}
+.JDSH_div3:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.JDSH_div4{
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--txt-color);
+}
+.JDSH_div4:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.JDSH_div5{
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--txt-color);
+}
+.JDSH_div5:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.JDSH_div6{
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--txt-color);
+}
+.JDSH_div6:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.JDSH_div7{
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--txt-color);
+}
+.JDSH_div7:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.JDSH_div8{
+    width: 25%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--txt-color);
+}
+.JDSH_div8:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+#boton{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--txt-color);
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.amarillo{
+    background-color: var(--amarillo);
+}
+.rojo{
+    background-color: var(--rojo);
+}
+.azul{
+    background-color: var(--azul);
+}
+.verde{
+    background-color: var(--verde);
+}
+.naranja{
+    background-color: var(--naranja);
+}
+.morado{
+    background-color: var(--morado);
+}
+.cafe{
+    background-color: var(--cafe);
+}
+.rosa{
+    background-color: var(--rosa);
+}
+@media screen and (max-width: 1024px) {
+    .JDSH_div1, .JDSH_div2, .JDSH_div3, .JDSH_div4, .JDSH_div5, .JDSH_div6, .JDSH_div7, .JDSH_div8 {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .JDSH_div1, .JDSH_div2, .JDSH_div3, .JDSH_div4, .JDSH_div5, .JDSH_div6, .JDSH_div7, .JDSH_div8 {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .JDSH_div1, .JDSH_div2, .JDSH_div3, .JDSH_div4, .JDSH_div5, .JDSH_div6, .JDSH_div7, .JDSH_div8 {
+        width: 100%;
+    }
+}
